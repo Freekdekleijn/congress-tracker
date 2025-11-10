@@ -1,0 +1,3 @@
+git add .
+git commit -m "Update APK build workflow"
+git push
