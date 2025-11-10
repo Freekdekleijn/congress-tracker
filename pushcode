@@ -1,0 +1,11 @@
+# Wijzig de branch naam naar main
+git branch -m main
+
+# Voeg je GitHub repository toe (vervang met jouw username/repo)
+git remote add origin https://github.com/Freekdekleijn/congress-tracker.git
+
+# Commit alles
+git commit -m "Initial commit: Congress Trading Tracker app"
+
+# Push naar GitHub
+git push -u origin main
