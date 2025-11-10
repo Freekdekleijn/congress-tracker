@@ -1,4 +1,0 @@
-cd /pad/naar/je/project
-git add .github/workflows/build-apk.yml
-git commit -m "Add APK build workflow"
-git push origin main
