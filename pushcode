@@ -9,3 +9,13 @@ git commit -m "Initial commit: Congress Trading Tracker app"
 
 # Push naar GitHub
 git push -u origin main
+# Ga naar je project folder in je terminal
+cd /pad/naar/je/project
+
+# Check of beide workflow files er zijn
+ls -la .github/workflows/
+
+# Als build-apk.yml er is, voeg het toe en push
+git add .github/workflows/build-apk.yml
+git commit -m "Add APK build workflow"
+git push origin main
